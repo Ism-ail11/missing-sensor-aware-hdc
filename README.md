@@ -4,7 +4,7 @@
 
 ## Overview
 
-This repository contains a self-contained experimental notebook studying **hyperdimensional computing under missing clinical features and sensor-group outages**. It compares missingness-aware HDC representations and retrieval strategies with classical supervised-learning baselines, with emphasis on robustness, calibration, and inference efficiency. The proposed method is identified as **`Ours`** in the notebook.
+This repository contains a self-contained experimental notebook studying **hyperdimensional computing under missing clinical features and sensor-group outages**. It compares missingness-aware HDC representations and retrieval strategies with classical supervised-learning baselines, with emphasis on robustness, calibration, and inference efficiency.
 
 The experiments use two public benchmark datasets: the **Wisconsin Diagnostic Breast Cancer (WDBC)** dataset and **Statlog (Heart)**. This is an **internal development evaluation**, not an independent, prospective, external, or clinical validation study. The notebook itself is the authoritative implementation of the experimental protocol; no performance values are asserted in this README without executing that implementation.
 
@@ -94,10 +94,6 @@ For publication-grade reproducibility, record the operating system, CPU model, P
 ## Interpretation and limitations
 
 These experiments test retrospective, public benchmark datasets with simulated missing features. Simulated MCAR, group outages, and other constructed mechanisms may differ from real clinical missingness. Dataset scope was selected following internal development; therefore, results should not be interpreted as unbiased external validation. Nested resampling and statistical comparisons do not replace testing on independent cohorts or prospective workflows. **The software is research-only and must not be used for medical diagnosis or patient care.**
-
-## Citation
-
-If this repository supports a publication, cite the **associated paper** once its title, venue, year, and DOI are finalized. Until then, the repository can be cited using [`CITATION.cff`](CITATION.cff). No paper title, DOI, or peer-review status is assumed here.
 
 ## References
 
