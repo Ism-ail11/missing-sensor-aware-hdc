@@ -95,13 +95,6 @@ For publication-grade reproducibility, record the operating system, CPU model, P
 
 These experiments test retrospective, public benchmark datasets with simulated missing features. Simulated MCAR, group outages, and other constructed mechanisms may differ from real clinical missingness. Dataset scope was selected following internal development; therefore, results should not be interpreted as unbiased external validation. Nested resampling and statistical comparisons do not replace testing on independent cohorts or prospective workflows. **The software is research-only and must not be used for medical diagnosis or patient care.**
 
-## Authorship and correspondence
-
-- **Ismail Lamaakal** — [Ismail.lamaakal@ump.ac.ma](mailto:Ismail.lamaakal@ump.ac.ma)
-- **Idris Elgarrab** — [idris.elgarrab@ump.ac.ma](mailto:idris.elgarrab@ump.ac.ma)
-
-See [`AUTHORS`](AUTHORS) and [`CITATION.cff`](CITATION.cff).
-
 ## Citation
 
 If this repository supports a publication, cite the **associated paper** once its title, venue, year, and DOI are finalized. Until then, the repository can be cited using [`CITATION.cff`](CITATION.cff). No paper title, DOI, or peer-review status is assumed here.
